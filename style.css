@@ -1,0 +1,47 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face 
+{
+  font-family: "Solaiman";
+  src: url("SolaimanLipi.ttf");
+}
+h1
+{
+  position: static;
+  font-family: "Solaiman";
+}
+.cardUrl
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0,0,0,0.5);
+  width: 50vw;
+  height: 50vw;
+  outline: solid 1px black;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 1.6em;
+  font-family: "Solaiman";
+  font-weight: 100;
+  padding: 20px;
+}
+.container
+{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100vw;
+}
+body 
+{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
